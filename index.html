@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Muhammad Muazzam — Portfolio</title>
+    <meta
+      name="description"
+      content="Personal portfolio of Muhammad Muazzam: BS Mathematics at BZU Multan (CASPAM), Data Analytics, Machine Learning, Database Systems, and Software Development."
+    />
+    <meta
+      name="keywords"
+      content="Muhammad Muazzam, BS Mathematics, BZU Multan, CASPAM, Data Analyst, Machine Learning, PostgreSQL, Power BI, FMCG Inventory System, Mathematical Modelling"
+    />
+    <meta name="author" content="Muhammad Muazzam" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Muhammad Muazzam" />
+    <meta
+      property="og:title"
+      content="Muhammad Muazzam — Portfolio"
+    />
+    <meta
+      property="og:description"
+      content="Personal portfolio of Muhammad Muazzam: BS Mathematics at BZU Multan (CASPAM), Data Analytics, Machine Learning, Database Systems, and Software Development."
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Muhammad Muazzam — Portfolio"
+    />
+    <meta
+      name="twitter:description"
+      content="Personal portfolio of Muhammad Muazzam: BS Mathematics at BZU Multan (CASPAM), Data Analytics, Machine Learning, Database Systems, and Software Development."
+    />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=Fraunces:ital,opsz,wght@0,9..144,400..600;1,9..144,400..500&family=JetBrains+Mono:wght@400;500;600&family=Manrope:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      (function () {
+        try {
+          var saved = localStorage.getItem('mm_portfolio_theme');
+          var theme = saved === 'light' ? 'light' : 'dark';
+          var root = document.documentElement;
+          if (theme === 'dark') {
+            root.classList.add('dark');
+          } else {
+            root.classList.remove('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Muhammad Muazzam",
+        "description": "Mathematics Student, Aspiring Data Analyst, Machine Learning Enthusiast, and Database & Software Development Enthusiast.",
+        "alumniOf": {
+          "@type": "CollegeOrUniversity",
+          "name": "Bahauddin Zakariya University (BZU), Multan — CASPAM"
+        },
+        "knowsAbout": [
+          "Mathematics",
+          "Mathematical Modelling",
+          "Data Analytics",
+          "PostgreSQL",
+          "Machine Learning",
+          "Power BI",
+          "Python"
+        ]
+      }
+    </script>
+  </head>
+  <body class="bg-[#F8FAFC] text-slate-900 dark:bg-[#050B16] dark:text-slate-100 antialiased selection:bg-blue-600 selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
